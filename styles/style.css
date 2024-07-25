@@ -12,7 +12,7 @@ body {
 }
 
 .hero-background {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.164), rgba(17, 17, 17, 0.075));
+    background: linear-gradient(180.00deg, rgba(209, 203, 203, 0.164), rgba(151, 151, 151, 0.219), rgba(14, 14, 14, 0.144));
 }
 
 /* common used styles */
