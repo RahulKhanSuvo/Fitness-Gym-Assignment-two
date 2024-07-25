@@ -79,4 +79,40 @@
         width: 20px;
         height: 20px;
     }
+
+    /* habit section */
+    .habit-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-title h1 {
+        font-size: 2rem;
+    }
+
+    /* run container */
+    .run-container {
+        flex-direction: column;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .run-titles {
+        width: 100%;
+    }
+
+    .run-photo {
+        width: 100%;
+        height: 200px;
+    }
+
+    .run-titles h1 {
+        font-size: 2rem;
+
+    }
+
+    .run-btn {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
