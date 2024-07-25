@@ -122,4 +122,43 @@
         width: 93%;
         margin: 0 auto;
     }
+
+    /* bmi */
+    .bmi-container {
+        width: 90%;
+    }
+
+    .bmi h1 {
+        font-size: 1.500rem;
+    }
+
+    .bmi p {
+        font-size: smaller;
+    }
+
+    /* chart */
+    .bmi-cart-content {
+        width: 93%;
+        margin: 0 auto;
+
+        flex-direction: column;
+    }
+
+    select {
+        width: 25%;
+
+    }
+
+    table {
+        width: 100%;
+    }
+
+    form input,
+    select {
+        width: 50%;
+    }
+
+    .factor {
+        width: 100%;
+    }
 }
