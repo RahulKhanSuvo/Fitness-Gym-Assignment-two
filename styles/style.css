@@ -224,3 +224,156 @@ ul li {
     font-weight: 400;
 
 }
+
+/* run section  */
+.run-container {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 30px;
+}
+
+.run-titles {
+    width: 50%;
+
+}
+
+.run-titles h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+
+}
+
+.run-photo {
+    width: 50%;
+    height: 350px;
+}
+
+.run-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.run-titles p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+
+}
+
+.run-titles button {
+    padding: 16px 65px;
+}
+
+/* plan container */
+.plans-container {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 40px;
+    gap: 10px;
+
+}
+
+.plan {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(230, 83, 60);
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.plan-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.plan-header span {
+    background: white;
+    color: #000;
+    font-size: 1.500rem;
+    padding: 0px 10px;
+    font-weight: 900;
+}
+
+.plan-header h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.875rem;
+    font-weight: 900;
+}
+
+.plan-header p {
+    color: rgba(230, 83, 60, 0.658);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.plan-body {
+    margin-top: 20px;
+    border-top: 2px solid rgb(230, 83, 60);
+    padding-top: 10px;
+}
+
+.plan-features {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    padding: 2px 4px;
+    background-color: #ffffff0e;
+}
+
+.plan-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-btn {
+    margin-top: 50px;
+}
+
+.bmi-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.bmi {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.bmi h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 14px;
+
+}
