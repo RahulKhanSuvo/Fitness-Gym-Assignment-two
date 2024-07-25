@@ -161,4 +161,23 @@
     .factor {
         width: 100%;
     }
+
+    .meet-container {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+    .teams-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .imve {
+        display: none;
+    }
+
+    .member-title {
+        position: absolute;
+        top: 80%;
+        left: 8%;
+    }
 }
