@@ -1,0 +1,82 @@
+/* style for mobile device */
+@media screen and (max-width:576px) {
+
+    /* nav responsive */
+    .nav-option ul {
+        display: none;
+    }
+
+    nav {
+        width: 90%;
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .bar {
+        display: block;
+        color: white;
+        width: 100%;
+    }
+
+    .nav-title {
+        font-size: 2.25rem;
+    }
+
+    /* banner style */
+    .banner-container {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        padding-top: 75px;
+    }
+
+    .banner-title h1 {
+        color: rgb(255, 255, 255);
+        font-size: 2.25rem;
+        font-weight: 900;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+
+    .btn {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
+
+    .hero-card-title h2 {
+        font-size: 0.62rem;
+    }
+
+    .hero-card-two h2 {
+        font-size: 1rem;
+    }
+
+    .hero-card-two p,
+    .hero-card-title p {
+        font-size: .65rem;
+    }
+
+    .hero-card {
+        width: 40%;
+        height: 10%;
+        top: 50%;
+        right: 60%;
+    }
+
+    .hero-card-two {
+        padding: 15px;
+        width: 46%;
+        height: 12%;
+        left: 52%;
+    }
+
+    .red-dot {
+        width: 20px;
+        height: 20px;
+    }
+}
