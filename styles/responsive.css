@@ -188,4 +188,26 @@
     .meet-title p {
         font-size: .750rem;
     }
+
+    /* footer section */
+
+    .footer-container {
+        width: 93%;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-links-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-titel-container h1 {
+        font-size: 3.600rem;
+    }
+
+    .footer-titel-container p {
+        font-size: 0.800rem;
+    }
 }
