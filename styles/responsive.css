@@ -180,4 +180,12 @@
         top: 80%;
         left: 8%;
     }
+
+    .meet-title h1 {
+        font-size: 2rem;
+    }
+
+    .meet-title p {
+        font-size: .750rem;
+    }
 }
